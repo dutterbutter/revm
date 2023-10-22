@@ -2389,6 +2389,7 @@ dependencies = [
  "ripemd",
  "secp256k1",
  "sha2",
+ "sha3",
  "substrate-bn",
 ]
 

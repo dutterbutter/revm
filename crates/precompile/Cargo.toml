@@ -17,7 +17,8 @@ bn = { package = "substrate-bn", version = "0.6", default-features = false }
 num = { version = "0.4.0", default-features = false, features = ["alloc"] }
 once_cell = { version = "1.17", default-features = false, features = ["alloc"] }
 ripemd = { version = "0.1", default-features = false }
-sha2 = { version = "0.10", default-features = false }
+sha2 = { version = "0.10.6", default-features = false }
+sha3 = { version = "0.10.6", default-features = false }
 
 # Optional KZG point evaluation precompile
 c-kzg = { version = "0.1.1", default-features = false, optional = true }
